@@ -1,6 +1,6 @@
 
-num_posts = 100
-num_comments = 500
+num_posts = 100000
+num_comments = 500000
 f = open('./seed.sql', 'w')
 
 1.upto(num_posts) do |i|
