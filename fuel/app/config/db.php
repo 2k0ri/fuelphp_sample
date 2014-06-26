@@ -22,7 +22,7 @@ return array(
       'username'   => 'root',
       'password'   => '',
       'persistent' => false,
-      'socket'     => '/tmp/mysql.sock'
+      'socket'     => '/var/lib/mysql/mysql.sock' 
     ),
     'identifier'   => '`',
     'table_prefix' => '',
